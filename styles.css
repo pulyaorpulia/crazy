@@ -259,3 +259,40 @@ h2 {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+
+/* Telefonlar uchun media query (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    /* Navbar stilini o'zgartirish */
+    nav {
+        flex-direction: column; /* Elementlarni ustma-ust joylashtirish */
+        padding: 10px; /* Ichki bo'shliqni kamaytirish */
+        background: rgba(145, 25, 25, 0.8); /* Shaffof fon */
+    }
+
+    .logo img {
+        width: 60px; /* Logoni kichikroq qilish */
+        height: 60px;
+    }
+
+    .menu {
+        flex-direction: column; /* Menyu elementlarini ustma-ust joylashtirish */
+        align-items: center; /* Markazga tekislash */
+        padding: 0; /* Paddingni olib tashlash */
+    }
+
+    .menu li {
+        margin: 10px 0; /* Elementlar orasidagi bo'shliqni o'zgartirish */
+    }
+
+    /* Header stilini o'zgartirish */
+    header {
+        height: 100vh; /* Balandlikni kamaytirish */
+        padding: 20px; /* Ichki bo'shliq qo'shish */
+    }
+
+    .header-content {
+        padding: 20px; /* Ichki bo'shliqni o'zgartirish */
+        border-radius: 20px; /* Radiusni kamaytirish */
+    }
+}
