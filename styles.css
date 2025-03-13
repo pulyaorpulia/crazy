@@ -55,7 +55,7 @@ nav {
     justify-content: center; /* Chap va o‘ng tomonga yoyish */
     align-items: center; /* Markazga tekislash */
     padding: 10px 20px; /* Ichki bo‘shliq */
-    background: rgba(0, 0, 0, 0.8); /* Shaffof qora fon */
+    background: rgba(145, 25, 25, 0); /* Shaffof qora fon */
     position: fixed; /* Navbarni ekranga yopishtiramiz */
     width: 100%; /* To‘liq ekranni qoplashi uchun */
     bottom: 0; /* Pastga joylashishi uchun */
@@ -241,4 +241,21 @@ h2 {
 .step p {
     font-size: 18px;
     line-height: 1.5;
+}
+
+
+/* Umumiy stil */
+.simple-footer {
+    background-color: #0303037b;
+    color: #010101;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Knewave", sans-serif;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
