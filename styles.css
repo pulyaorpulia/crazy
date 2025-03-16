@@ -137,6 +137,11 @@ h1 {
     transform: scale(1.2); /* Sichqoncha ustiga borganda kattalashadi */
 }
 
+.social-links a[href*="odin.fun"] img {
+    width: 60px; /* Odin logosi asl o‘lchamida bo‘lishi uchun */
+    height: 40px; /* Balandligini umumiy icon balandligiga moslashtirish */
+}
+
 /* About bo'limi */
 #about, #tokenomics, #how-to-buy {
     padding: 50px 20px;
